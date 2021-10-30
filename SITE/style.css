@@ -15,7 +15,7 @@ margin: 0;
 body {
 
 font-family: 'Zen Antique', serif;
-background-color: #3645619d;
+background-color: #2a2694;
 color: white;
 
 
@@ -32,7 +32,8 @@ font-family:  'Bebas Neue', cursive;
 
 height: 40%;
 width: 100%;
-background-color: #3645619d;
+background-color: #2a2694;
+border: 2px solid #0f0d5adc;
 
 }
 
@@ -64,6 +65,7 @@ text-decoration: none;
 .navbar .active {
 
 font-weight: bolder;
+color: lightblue;
 
 }
 
@@ -74,54 +76,100 @@ text-decoration: none;
 
 }
 
-.frases  {
+.banner .container {
 
-    height: 650px;
-    background-image: url(imagens/MetaReading\ •\ Organazing.png);
+    height: 550px;
+    background-image: url(imagens/Captura\ de\ tela\ 2021-10-30\ 153654\ \(3\).png);
     background-size: cover; 
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
+       
+
+}
+
+.texto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
+}
+
+ h3 {
+
+margin-left: 20px;
 
 }
 
 
-.frase1 {
+.meta .container {
 
-    font-size: 40px;
-    font-weight: bolder;
-
-
-}
-
-.frase2 {
-
-
-    font-size: 20px;
-
-
-}
-
-.conteudo .container {
-
-height: 500px;
-background-color: #1c23309d;
+height: 70vh;
+background-color: #ffffff9d;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: auto;
-width: 100%;
 
 
 }
 
+.meta .container .imgs .i1 .i2 {
 
-.conteudo .container .imagens {
+
+    height: 100px;
+    width: 100px;
+
+    
+}
+
+.meta .container .imgs .frase1 {
+
+    font-size: 30px;
+    font-weight: bold;
+    margin: 25px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-height: 20px;
-background-size: cover;
+.meta .container .imgs {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.meta .container .imgs div {
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+
+
+
+.meta .container .btsm {
+
+color: white;
+background-color: rgb(133, 99, 243);
+border-radius: 30px;
+text-transform: uppercase;
+font-weight: bold;
+padding: 20px;
+
+
+
+
 
 }
 
@@ -152,25 +200,60 @@ margin: auto;
 
 }
 
-.conteudo .container .cadastro {
+.quems .container div {
 
-background-color: #202c42ce;
-height: 70%;
-width: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
-flex-direction: column;
+height: 80%;
+width: 90%;
+background-color: #ffffff9d  ;
 
 }
 
- .login {
+.quems .container img {
+
+
+
+
+}
+
+
+.conteudo .cadastro div {
+
+    background-color: #202c42ce;
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+
+.cadastro {
 
     display: flex;
-    background-color: #202c42ce;
-    height: 60%;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;  
+}
+
+input {
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    
+        
+    }
+
+.login {
+
+     background-color: #202c42ce;
+     height: 40vh;
+     width: 50%;
+     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -180,7 +263,8 @@ flex-direction: column;
 
 .bt {
 
-padding: 5px;
+padding: 15px;
+border-radius: 20px;
 background-color: rgb(133, 99, 243);
 color: black;
 border: black 1px solid;

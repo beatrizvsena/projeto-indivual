@@ -1,6 +1,6 @@
+
 @import url('https://fonts.googleapis.com/cssfamily=Bebas+Neue&family');
 @import url('https://fonts.googleapis.com/cssfamily=Zen+Antique&display=swap');
-
 
 
 
@@ -15,7 +15,8 @@ margin: 0;
 body {
 
 font-family: 'Zen Antique', serif;
-background-image: url("https://images.pexels.com/photos/1024613/pexels-photo-1024613.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+background-color: #3645619d;
+color: white;
 
 
 }
@@ -31,7 +32,7 @@ font-family:  'Bebas Neue', cursive;
 
 height: 40%;
 width: 100%;
-background-color: rgba(246, 240, 162, 0.582);
+background-color: #3645619d;
 
 }
 
@@ -60,11 +61,23 @@ text-decoration: none;
 
 }
 
+.navbar .active {
+
+font-weight: bolder;
+
+}
+
+.navbar a {
+
+color: white; 
+text-decoration: none;  
+
+}
 
 .frases  {
 
-    height: 500px;
-    background-image: url(https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    height: 650px;
+    background-image: url(imagens/MetaReading\ •\ Organazing.png);
     background-size: cover; 
     display: flex;
     justify-content: left;
@@ -92,8 +105,8 @@ text-decoration: none;
 
 .conteudo .container {
 
-background-color: rgb(246, 241, 162) ;
 height: 500px;
+background-color: #1c23309d;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -104,11 +117,19 @@ width: 100%;
 }
 
 
+.conteudo .container .imagens {
+
+
+height: 20px;
+background-size: cover;
+
+}
+
 .footer  {
 
 height: 120px;
 width: 100%;
-background-color: rgba(246, 240, 162, 0.664);
+background-color: #202c42ce;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -117,4 +138,53 @@ flex-direction: column;
 
 
 }
+
+
+.quems .container {
+
+height: 100vh;
+width: 100%;
+background-color: #1c23309d;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
+
+.conteudo .container .cadastro {
+
+background-color: #202c42ce;
+height: 70%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+flex-direction: column;
+
+}
+
+ .login {
+
+    display: flex;
+    background-color: #202c42ce;
+    height: 60%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    
+    }
+
+.bt {
+
+padding: 5px;
+background-color: rgb(133, 99, 243);
+color: black;
+border: black 1px solid;
+
+}
+ 
 

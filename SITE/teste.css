@@ -160,6 +160,7 @@ margin: 15px 0 ;
 
 }
         
+        
 .meta .container .imgs {
 
 display: flex;
@@ -177,7 +178,7 @@ justify-self: center;
 align-self: center;
 flex-direction: column;
 color: white;
-background-color: #8563f3;
+background-color: rgb(133, 99, 243);
 border-radius: 30px;
 text-transform: uppercase;
 font-weight: bold;
@@ -185,7 +186,8 @@ padding: 20px;
 margin-top: 40px;
 box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
 backdrop-filter: blur(5px);
-transition: 0.5s;                
+transition: 0.5s;
+                
 }
     
 .footer {
@@ -200,17 +202,12 @@ transition: 0.5s;
 
 }
 
-.quems {
-
-
-    background-image: url(imagens/Novo\ Projeto\ \(7\).png);
-}
 
 .quems .container {
 
-background-color: #dbd6d6;
-height: 700px;
-width: 90%;
+height: 100vh;
+width: 100%;
+background-color: #1c23309d;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -218,157 +215,74 @@ margin: auto;
 
 }
 
-.quems .container .conteudo  {
+.quems .container div {
+
+height: 80%;
+width: 90%;
+background-color: #ffffff9d  ;
+
+}
+
+.quems .container img {
+
+
+
+
+}
+
+
+.conteudo .cadastro div {
+
+    background-color: #202c42ce;
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
     
-    color: black;
-    margin: 0;    
 }
 
 
-.quems .container .conteudo div p {
-
-    color: black;
-
-}
-
-.quems .container .conteudo div button {
-
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    color: white;
-    background-color: rgb(133, 99, 243);
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 20px;
-    margin-left: 42%;
-    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
-backdrop-filter: blur(5px);
-transition: 0.5s;
-}
-
-
-.conteudo .cadastro {
-
-    background-color: rgba(75, 75, 190, 0.678);
-    border: dotted 5px #15127e8f ;
-    color: black;
-    height: 108%;
-    width: 30%;
-    border-radius: 10%;
-    margin-top: 10px;
-    margin-left: 34%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-
-}
-
-.conteudo .cadastro h2 {
-
-font-size: 30px;
-
-}
-
-.conteudo .cadastro p {
+.cadastro {
 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 8px;
-
+    margin: auto;  
 }
-
-.conteudo .cadastro div button {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-left: 25px;
-    box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    transition: 0.5s;
-}
-
 
 input {
     
     border: 2px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
     
         
     }
 
-.conteudo  {
+.login {
 
-background-image: url(imagens/Novo\ Projeto\ \(13\).png);
-background-size: cover;
-width: 100%;
-height: 510px;
+     background-color: #202c42ce;
+     height: 40vh;
+     width: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    
+    }
 
-}
-        
-.conteudo .login {
-        
-background-color: rgba(75, 75, 190, 0.678);
-border: dotted 5px #15127e8f ;
-color: black;
-height: 80%;
-width: 30%;
-border-radius: 10%;
-margin-top: 40px;
-margin-left: 34%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-            
-        
-}
-        
-.conteudo .login h2 {
-        
-font-size: 30px;
-        
-}
-        
-.conteudo .login p {
-        
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-padding: 8px;
-        
-}
-        
-.conteudo .login div button {
-        
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: 10px;
-margin-left: 25px;
-
-}
-
-button {
+.bt {
 
 padding: 15px;
 border-radius: 20px;
 background-color: rgb(133, 99, 243);
 color: black;
-box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
-backdrop-filter: blur(5px);
-transition: 0.5s;
+border: black 1px solid;
 
 }
  

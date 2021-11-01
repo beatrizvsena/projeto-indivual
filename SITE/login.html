@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conheça</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,26 +19,28 @@
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="conheca.html"> Conheça</a></li>
                 <li><a href="cadastro.html">Cadastro</a> </li>
-                <li class="active"><a href="login.html">Login</a> </li>
+                <li class="active">Login</a> </li>
             </ul>
 
         </div>
     </div>
 
-    <div class="conteudo">
-        <div class="container">
+    <div id="telalogin">
+        <div class="conteudo">
             <div class="login">
+
                 <h2>Entre</h2>
                 <br><br>
-                <p>E-mail</p>
+
+                <p>Usuário</p>
+                <input id="usuar" type="text" placeholder="Insira seu e-mail">
                 <br>
-                <input id="emaillog" type="email" placeholder="Insira seu e-mail">
-                <br>
+
                 <p>Senha</p>
-                <br>
                 <input id="senhalog" type="password" placeholder="Insira sua senha">
                 <br>
-                <button class="bt" onclick="login()">Entrar</button>
+
+                <button class="btlog" onclick="login()">Entrar</button>
 
             </div>
         </div>
@@ -45,7 +48,8 @@
 
 
 
-
 </body>
 
 </html>
+
+<script src="script.js"></script>

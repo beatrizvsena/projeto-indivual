@@ -17,19 +17,20 @@
             <ul class="navbar">
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="conheca.html">Conheça</a> </li>
-                <li class="active"><a href="cadastro.html"> Cadastro</a></li>
+                <li class="active"> Cadastro</a></li>
                 <li><a href="login.html"> Login</a></li>
             </ul>
 
         </div>
     </div>
 
+    <div id="telacadastro">
     <div class="conteudo">
         <div class="cadastro">
 
             <div>
-                <h3>Bem vindo!</h3>
-                <br><br>
+                <h2>Bem vindo!</h2>
+                <br>
 
                 <p>Nome Completo</p>
                 <input type="text" id="nome" placeholder="Seu nome">
@@ -39,23 +40,29 @@
                 <input type="email" id="email" placeholder="Seu e-mail">
                 <br>
 
-                <p>Telefone</p>
-                <input type="text" id="tel" placeholder="Seu número">
+                <p>Usuário</p>
+                <input type="text" id="usuario" placeholder="Digite um usuário">
                 <br>
 
                 <p>Senha</p>
                 <input type="password" id="senha" placeholder="Uma senha">
                 <br>
 
-                <button class="bt" onclick="cadastro()">Cadastre-se</button>
+                <p>Confirme sua senha</p>
+                <input id="senhaconfir" type="password" placeholder="Confirme sua senha">
+                <br>
+
+                <button onclick="cadas()">Cadastre-se</button>
             </div>
         </div>
 
 
     </div>
 
-
+</div>
 
 </body>
 
 </html>
+
+<script src="script.js"></script>

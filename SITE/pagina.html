@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -17,7 +17,7 @@
 
     <div class="header">
         <div class="container">
-            <h1>MetaReader</h1>
+            <h1> MetaReader</h1>
             <ul class="navbar">
                 <li><a href="index.html"> Home</a></li>
                 <li class="active">Minha Página</li>
@@ -30,30 +30,87 @@
 
     <div class="leituras">
         <div class="container">
-            <p>conteudo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, quasi placeat molestiae
-                deleniti impedit voluptatibus aut vitae, molestias dolor aspernatur id eum ipsum! Consequuntur culpa
-                ratione deserunt, libero vel iusto?</p>
+            <p class="msgola">Olá <span id="nomeusu">Name</span>!
+
+            <div>
+                <img src="imagens/Novo Projeto (14).png"
+                    alt="">
+            </div>
+
+            <div class="telaanalise">
+                <span class="lidos">Lidos
+
+                    <img class="imglidos"
+                        src="https://images.vexels.com/media/users/3/157233/isolated/preview/f6bf1094d2550ae80df80f6840f7d5e6-icone-de-livro-didatico-simples.png"
+                        alt="">
+                    <p class="numlidos">0</p>
+
+                </span>
+
+                <span class="tempo">Tempo
+
+                    <img class="imgtempo" src="https://cdn-icons-png.flaticon.com/512/151/151770.png" alt="">
+                    <p class="numtempo">0</p>
+
+                </span>
+
+                <span class="pags">Páginas
+
+                    <img class="imgpags" src="https://cdn-icons-png.flaticon.com/512/1250/1250681.png" alt="">
+                    <p class="numpags">0</p>
+
+                </span>
+
+                </p>
+
+            </div>
         </div>
+
     </div>
+
 
     <div class="calculadora">
         <div class="container">
-            <p>conteudo Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, maxime officia. Corrupti
-                quia quo eaque voluptatem possimus! Velit eos necessitatibus officia quasi beatae deserunt quidem ut
-                ipsa dolor! Voluptate, nihil!</p>
+            <p class="calctitulo">Em quanto tempo leio?</p>
+
+                <div class="calculos">
+
+                    <input type="text" id="nomelivro" placeholder="Nome do livro">
+                    <input type="text" id="numdpags" placeholder="Número de páginas">
+                    <input type="text" id="mediatempo" placeholder="Média de tempo livre em minutos">
+
+
+                </div>
+
+                <button onclick="calcular()">Calcular tempo</button>
+                <br><br>
+                <div id="msgresult"></div>
         </div>
     </div>
 
     <div class="sorteio">
         <div class="container">
-            <p>conteudo Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eos! Placeat deserunt sit ea
-                cum debitis temporibus earum ex illo inventore beatae. Impedit reiciendis id sequi earum? Sed, quod
-                provident!</p>
+            <p class="sorttitulo"> Não sabe o que ler? A gente escolhe </p>
+
+            <select id="genero">
+                <option value="">Selecione o gênero</option>
+                <option value="fantasia">Fantasia</option>
+                <option value="romance">Romance</option>
+                <option value="thriller">Thriller</option>
+                <option value="ficcao">Ficção</option>
+                <option value="autoajuda">Auto-Ajuda</option>
+
+            </select>
+
+            <button onclick="sorteio()">Sortear</button>
+            <br><br>
+            <div id="msgsort"></div>
+
         </div>
     </div>
 
 
-    
+
 
 
     <div class="footer">
